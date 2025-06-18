@@ -1,0 +1,10 @@
+use temp;
+create table detail(name varchar(20),mark int,department varchar(20),section varchar(5));
+insert into detail values("surya",95,"cs",'A'),("ragavi",90,'bcom','B'),("gowsi",90,'bca','C'),("shanju",90,'IT','A'),("vichu",90,'cs','B');
+select * from detail;
+update detail set name="kannaki" where department='bsc';
+select mark from detail where mark<60;
+insert into detail values("suganth",55,'cs','B');
+select mark from detail where mark<60;
+select name, department, section from detail;
+

@@ -1,0 +1,4 @@
+use temp;
+create table detail(name varchar(20),mark int,department varchar(20),section varchar(5));
+insert into detail values("surya",95,"cs",'A'),("ragavi",90,'bcom','B'),("gowsi",90,'bca','C'),("shanju",90,'IT','A'),("vichu",90,'cs','B');
+select * from detail;
